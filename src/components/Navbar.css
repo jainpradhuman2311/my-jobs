@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 22px 0px;
+  border-bottom: 1px solid #43afff;
+}
+.navbar > p {
+  font-size: 22px;
+  color: #fff;
+}
+.navbar > p > span {
+  color: #43afff;
+}
+.navbar-btn {
+  width: 148px;
+  height: 46px;
+  border: 1px solid var(--unnamed-color-43afff);
+  background: #43afff33 0% 0% no-repeat padding-box;
+  border: 1px solid #43afff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-btn-active {
+  display: none;
+}
